@@ -139,3 +139,55 @@ span{
 span.fade{
   color: black;
 }
+
+@media only screen and (max-width: 768px) {
+  .nav_link{
+    position: fixed;
+    width: 95%;
+    height: 100vh;
+    margin-top: 30px;
+    background: black;
+    flex-direction: column;
+    /* clip-path: circle(50px); */
+    display: none;
+    gap: 30px;
+    clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path:circle(100px at 90% -10%);
+    transition: all 1s ease-out;
+  }
+
+  .nav_link.open{
+    clip-path: circle(500px at 90% -10%);
+    -webkit-clip-path:circle(500px at 90% -10%);
+
+  }
+
+    .line{
+      width: 30px;
+      height: 3px;
+      background: white;
+      margin: 5px;
+    }
+    
+    .burger{
+      cursor: pointer;
+      
+    }
+
+
+
+  .container .content:nth-child(1) {
+      font-size: 1rem;
+      padding-top: 430px;
+      padding-left: 100px;
+  }
+  
+#name{
+  color: transparent;
+  -webkit-text-stroke: 0.005vw #1dc917;
+  font-size: 7vw;
+  position: relative;
+
+}
+
+}

@@ -24,3 +24,11 @@ function complete() {
     clearInterval(timer);
     timer = null;
 }
+
+const burger = document.querySelector('.burger');
+const navlink = document.querySelector('.nav_link');
+const links = document.querySelectorAll(".nav_link li");
+
+burger.addEventListener("click", () => {
+    navlink.classList.toggle("open");
+})
