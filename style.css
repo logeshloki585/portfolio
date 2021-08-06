@@ -374,14 +374,33 @@ span.fade{
 
 .logos{
   margin-left: 0%;
-  margin-right: 0%
+  margin-right: 0%;
+  padding-top: 4px;
+  flex-wrap: wrap;
+
 }
 
 .circle{
   width: 100px;
   height: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
+#circle_1 img{
+  height: 100px;
+}
+#circle_2 h4{
+  font-size: 80px;
+}
+
+#circle_3 img{
+  height: 90px;
+}
+
+#circle_4 img{
+  height: 90px;
+}
 }
 
 
