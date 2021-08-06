@@ -41,9 +41,15 @@
             </div>
         </div>
         <div class="section">
-           
-            <div class="content">
-                
+            <div class="emp"></div>
+            <div class="skill"  id="skill">
+                <h1>MY SKILLS</h1>
+                <li>
+                    <h3>html <span class="bar"><span class="html"></span></span></h3>
+                    <h3>css <span class="bar"><span class="css"></span></span></h3>
+                    <h3>javascript <span class="bar"><span class="js"></span></span></h3>
+                    <h3>react <span class="bar"><span class="react"></span></span></h3>
+                </li>
             </div>
         </div>
         <div class="section">
@@ -59,12 +65,23 @@
             </div>
         </div>
         <div class="section">
-        
+     
             <div class="content">
-                
+   
             </div>
         </div>
+
     </div>   
    <script src="app.js"></script>
+   <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".skill"), {
+		max: 25,
+		speed: 400
+	});
+	
+	//It also supports NodeList
+	VanillaTilt.init(document.querySelectorAll(".skill"));
+</script>
 </body>
 </html>

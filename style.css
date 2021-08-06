@@ -68,14 +68,14 @@
   background: #0f0 url(./img//bg3.jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 50vh;
+  height: 60vh;
 }
 
 .container .section:nth-child(3) {
   background: #00f url(./img//bg6.jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 50vh;
+  height: 40vh;
 }
 
 .container .section:nth-child(4) {
@@ -140,6 +140,129 @@ span.fade{
   color: black;
 }
 
+/* -------------------------------------- */
+
+#skill{
+  width: 90%;
+  height: 80%;
+  background-color: rgba(255,255,255,0.2);
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 8px;
+  box-shadow: 10px 7px 40px 1px rgba(0, 0,0, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+.emp{
+  height: 16%;
+}
+
+.skill h1{
+  padding-top: 20px;
+  padding-left: 30px;
+  color: white;
+  font-size: 29px;
+}
+
+.skill li{
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 30px;
+  
+}
+
+.skill h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.bar{
+
+  display: block;
+  height: 6px;
+  width: 90%;
+  border: 1px solid rgba(0, 0,0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+  height: 5px;
+  float: left;
+  background: #2187e7;
+}
+
+.html{
+  width: 90%;
+  animation: animatehtml 7s linear ;
+}
+
+@keyframes animatehtml{
+  0%{
+    width: 0%;
+  }
+  90%{
+    width: 93%;
+  }
+}
+
+
+.css{
+  width: 67%;
+  animation: css 8s linear;
+}
+
+@keyframes css{
+  0%{
+    width: 0%;
+  }
+  67%{
+    width: 68%;
+  }
+}
+
+
+.js{
+  width: 53%;
+  animation: js 9s linear;
+}
+
+@keyframes js{
+  0%{
+    width: 0%;
+  }
+  53%{
+    width: 55%;
+  }
+}
+
+.react{
+  width: 82%;
+  animation: react 9.7s;
+
+}
+
+@keyframes react{
+  0%{
+    width: 0%;
+  }
+  82%{
+    width: 84%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
   .nav_link{
     position: fixed;
@@ -191,3 +314,5 @@ span.fade{
 }
 
 }
+
+
