@@ -264,12 +264,9 @@ span.fade{
 
 
 @media only screen and (max-width: 768px) {
-  .nav{
-    height: 40px;
-  }
 
   .logo img {
-    height: 35px;
+    height: 45px;
   }
 
   .nav_link{
