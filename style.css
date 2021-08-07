@@ -393,6 +393,20 @@ button a {
   color: white;
 }
 
+#contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contact{
+  width: 80%;
+  height: 78vh;
+  background-color: rgba(255,255,255,0.3);
+  filter: blur(5px);
+  backdrop-filter: blur(4px);
+}
 @media only screen and (max-width: 768px) {
   .logo img {
     height: 45px;
@@ -491,5 +505,11 @@ button a {
 
   .button{
     margin-top: 20px;
+  }
+
+  .contact{
+    width: 80%;
+    height: 78vh;
+
   }
 }
