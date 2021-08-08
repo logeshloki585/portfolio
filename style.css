@@ -317,7 +317,7 @@ span.fade {
   scrollbar-width: none;
 }
 #first {
-  margin-left: 1100px;
+  margin-left: 900px;
 }
 .project::-webkit-scrollbar {
   width: 0;
@@ -325,7 +325,7 @@ span.fade {
 }
 
 .cart {
-  height: 75vh;
+  height: 80vh;
   width: 40%;
   background-color: rgba(250, 236, 255, 0.4);
   margin-top: 110px;
@@ -404,9 +404,34 @@ button a {
   width: 80%;
   height: 78vh;
   background-color: rgba(255,255,255,0.3);
-  filter: blur(5px);
+  /* filter: blur(5px); */
   backdrop-filter: blur(4px);
 }
+
+.contact h1{
+  margin-top: 50px;
+  margin-left: 77px;
+  font-size: 55px;
+  font-weight: bolder;
+}
+
+.text{
+  margin-left: 89px;
+  margin-top: 45px;
+  font-size: 30px;
+}
+
+.text h4{
+  font-weight: normal;
+  margin-top: 25px;
+  color: rgb(63, 18, 18);
+}
+
+.icon img{
+  height: 50px;
+  margin-top: 110px;
+}
+
 @media only screen and (max-width: 768px) {
   .logo img {
     height: 45px;
@@ -511,5 +536,32 @@ button a {
     width: 80%;
     height: 78vh;
 
+  }
+
+  .contact h1{
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -0px;
+    padding-left: 12px;
+  }
+
+  .text{
+    font-size: 17px;
+    margin-left: -0px;
+    padding-left: 20px;
+    padding-top: 3px;
+  }
+
+  .icon img{
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 40px;
+  }
+
+  .lines{
+    height: 0.1px;
+    margin-top: 9px;
+    margin-bottom: -10px;
+   background-color: grey;
   }
 }
